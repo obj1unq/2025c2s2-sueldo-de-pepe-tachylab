@@ -7,7 +7,7 @@ object pepe {
 // getters
     method categoria() = categoria
     method faltas() = faltas
-    method neto() = self.categoria().neto()
+    method neto() = categoria.neto()
     method bonoResultado() = bonoResultados
     method bonoPresentismo() = bonoPresentismo
 // setters
